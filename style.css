@@ -56,6 +56,18 @@ p {
 }
 
 h4 {
-  font-size: 20px;
-  
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(212, 0, 0);
+}
+
+h5 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(212, 0, 0);
+}
+
+
+footer.container-fluid.bg-4.text-center {
+    padding: 20px;
 }

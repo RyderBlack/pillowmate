@@ -27,8 +27,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Accueil</a></li>
-
         <li><a href="#">Le projet</a></li>
+        <li><a href="#">La Team</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
@@ -43,35 +43,43 @@
     <h3>PillowMate est un réveil conçu pour vous aider à vous réveiller du bon pieds.</h3>
     <p>Avec son système olfactif embarqué, c'est vous qui décidez du type de réveil que vous souhaitez !</p>
     </div>
+    <div class="center01">
+
+
     <div class="row" style="margin-bottom:50px;">
-      <div class="col-md-6">
+      <div class="col-sm-4 col-xs-offset-2">
         <h4>Happy</h4>
         <p>En choisissant le mode "Happy", vous vous lèverez du bon pieds avec une odeur de café...puis si le réveil n'est pas encore éteint, vous aurez droit à une succession de sons choisies avec amour par notre équipe.</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-sm-4">
         <h4>Evil</h4>
         <p>En choisissant le mode "Evil", vous aurez aussi une odeur de café...mais si le réveil n'est pas encore éteint, les surprises sonores sauront vous combler, après tout, c'est vous qui l'avez choisi.</p>
       </div>
 </div>
 <div class="row" style="margin-top:50px;">
-      <div class="col-md-6">
+      <div class="col-sm-4 col-xs-offset-2">
         <h4>Zen</h4>
         <p>En choisissant le mode "Zen", laissez vous bercer par des sons relaxant, comme si vous étiez sur une plage au large des Bahamas...</p>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-sm-4">
         <h4>NoSense</h4>
         <p>En choisissant le mode "NoSense", c'est l'idéal lorsque vous traversez un petit rhume qui ne vous permet pas de profiter de la technologie Sensis</p>
       </div>
     </div>
-
+</div>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">Le projet</h3>
   <h5>Un peu d'histoire:</h5>
-  <p>PillowMate est n'est d'une synergie entre 2 idées : L'idée de développer un système olfactif (que l'on va breveter!) et la volonté de conserver l'authenticité des sons tout en apportant une touche de modernité.</p>
+  <div class="row">
+    <div class="col-md-6 col-xs-offset-3">
+      <p>PillowMate est n'est d'une synergie entre 2 idées : L'idée de développer un système olfactif (que l'on va breveter!) et la volonté de conserver l'authenticité des sons tout en apportant une touche de modernité.</p>
+    </div>
+  </div>
+
 
 </div>
 
@@ -97,6 +105,44 @@
     </div>
   </div>
 </div>
+
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Contact</h3><br>
+  <div class="row">
+    <div class="col-md-6 col-xs-6">
+      <p class="contact-p french">Remplissez ce formulaire avec votre nom, une adresse mail ainsi que votre message. Que ce soit pour un renseignement ou même un devis.</p>
+      <img src="lg-robot.jpg" alt="">
+    </div>
+
+    <div id="contact" class="scroll contact">
+        				<div class="row center-2">
+        					<div class="col-md-5">
+
+                    <form name="contactform" method="post" role="form" action="https://formspree.io/ryhad.boughanmi@gmail.com">
+        		            <div class="form-group">
+                          <label for="usr">Nom* :</label>
+                          <input type="text" name="name" class="form-control" id="usr" placeholder="Entrez votre nom ici" autocomplete="on">
+                        </div>
+                          <div class="form-group">
+                            <label for="email">Email* :</label>
+                            <input type="email" name="_replyto" class="form-control" id="email" placeholder="Entrez votre email ici" autocomplete="on">
+                          </div>
+                          <div class="form-group">
+                            <label for="message">Message* :</label>
+                            <textarea name="message" class="form-control" rows="5" id="message" placeholder="votre message"></textarea>
+                          </div>
+        		                <button type="submit" class="btn btn-block"><i class="fa fa-envelope-o fa-x5" aria-hidden="true"></i>&nbsp; &nbsp;Envoyez votre message</button>
+                            <p>* champs requis.</p>
+                    </form>
+
+                </div> <!-- end col sm 12-->
+            </div> <!-- end row center 2-->
+
+        		</div><!-- end contact -->
+  </div>
+</div>
+
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
