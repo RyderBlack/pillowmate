@@ -1,7 +1,7 @@
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #a6a3a3;
     overflow-x: hidden;
 }
 
@@ -110,11 +110,15 @@ button {
   background-image: url("images/huile.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 25vh;
+  height: 40vh;
   padding: 3%;
 }
 
 .row01 .col-md-3 img {
   border: 6px solid white;
   border-radius: 3px;
+  width: 100%;
+}
+.fragrances {
+  margin-top: 3%;
 }
