@@ -6,7 +6,7 @@
     <title>PillowMate</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="favicon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="team.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -26,12 +26,16 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#intro">PillowMate</a>
+                <div class="navbar-brand logo">
+                  <a href="#intro"><img src="images/logo_pillowmate.png" alt="logo pillowmate" class="logo"></a>
+                </div>
+
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#intro">Accueil</a></li>
                     <li><a href="#projet">Le projet</a></li>
+                    <li><a href="#fonctions">Les fonctionnalités</a></li>
                     <li><a href="#team">La team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -40,16 +44,83 @@
     </nav>
 
     <!-- First Container -->
-    <header class="container-fluid text-center scroll bg-2" id="intro">
-      <h3 class="margin">Qu'est ce que PillowMate ?</h3>
-      <img src="lg-robot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="reveil" width="350" height="350">
+    <header class="container-fluid text-center scroll bg-2 " id="intro">
+      <h3 class="margin">Découvrez PillowMate</h3>
+      <img src="images/logo_pillowmate.png" class="img-responsive margin" style="display:inline" alt="reveil" width="350" height="350">
       <div class="row">
           <h3>PillowMate est un réveil conçu pour vous aider à vous réveiller du bon pieds.</h3>
           <p>Avec son système olfactif embarqué, c'est vous qui décidez du type de réveil que vous souhaitez !</p>
       </div>
     </header>
-    <div class="container-fluid bg-1 text-center scroll" id="accueil">
+    <div class="container-fluid bg-1 text-center scroll" id="projet">
+      <h3 class="margin">Le projet :</h3>
+      <div class="row">
+          <div class="col-md-12">
+              <p>La team PillowMate s'est formée Vendredi 3 Février 2017 lors du coup d'envoi du MOC 2017 ! <br/>
+                Il s'agit de la seule équipe garantie 100% sans ingénieurs ! De ce fait, il s'agit aussi de la seule équipe 100% débrouille, bricolages, et petites galères du MOC !</p>
 
+              <p>PillowMate est né de la synergie de deux idées : développer réveil avec un système olfactif puis d'un réveil en douceur, et d'un beaucoup moins doux 😈.</p>
+          </div>
+      </div>
+      <div class="container">
+             <div class="row">
+                 <div class="span12">
+                     <div class="well">
+                         <div id="myCarousel" class="carousel fdi-Carousel slide">
+                          <!-- Carousel items -->
+                             <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+                                 <div class="carousel-inner onebyone-carosel">
+                                     <div class="item active">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">1</div>
+                                         </div>
+                                     </div>
+                                     <div class="item">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">2</div>
+                                         </div>
+                                     </div>
+                                     <div class="item">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">3</div>
+                                         </div>
+                                     </div>
+                                     <div class="item">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">4</div>
+                                         </div>
+                                     </div>
+                                     <div class="item">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">5</div>
+                                         </div>
+                                     </div>
+                                     <div class="item">
+                                         <div class="col-md-4">
+                                             <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                             <div class="text-center">6</div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
+                                 <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
+                             </div>
+                             <!--/carousel-inner-->
+                         </div><!--/myCarousel-->
+                     </div><!--/well-->
+                 </div>
+             </div>
+         </div>
+
+    </div>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="fonctions">
+      <h3 class="margin">Les fonctionnalités :</h3>
         <div class="row" style="margin-bottom:50px;">
             <div class="col-md-6">
                 <h4>Happy</h4>
@@ -72,19 +143,6 @@
             </div>
         </div>
 
-    </div>
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projet">
-        <h3 class="margin">Le projet :</h3>
-        <div class="row">
-            <div class="col-md-12">
-                <p>La team PillowMate s'est formée Vendredi 3 Février 2017 lors du coup d'envoi du MOC 2017 ! <br/>
-                  Il s'agit de la seule équipe garantie 0% sans ingénieurs ! De ce fait, il s'agit aussi de la seule équipe 100% débrouille, bricolages, et petites galères du MOC !</p>
-
-                <p>PillowMate est né de la synergie de deux idées : développer réveil avec un système olfactif puis d'un réveil en douceur, et d'un beaucoup moins doux 😈.</p>
-
-            </div>
-        </div>
     </div>
     <!-- third -->
         <div class="container-fluid bg-1 text-center" id="team">
@@ -119,7 +177,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3 col-sm-offset-2">
+                <div class="col-md-3 col-xs-offset-2">
                     <img src="images/ryhad.png" class="img-responsive margin" style="width:100%" alt="Ryhad">
                     <h4>Ryhad</h4>
                     <p class="bio">Ryhad et un SIMPLonMARSIEN chevroné ! <br/>
@@ -127,13 +185,13 @@
                       Garant de la bonne humeur, il est l'atoût Fashion Police et sympathie du groupe ! <br/>
                       Ce superbe site ? C'est son bébé, qu'il a eu avec Alexandra !</p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <img src="images/alexandra.png" class="img-responsive margin" style="width:100%" alt="Alexandra">
                     <h4>Alexandra</h4>
                     <p class="bio">Alexandra et une SIMPLonMARSIENNE, mais également éleveuse de Licornes Bio en Provence.<br/> Arrivée avec toute la meilleure volonté du monde, elle s'est acharnée sur plusieurs cartes programmables avant de se faire secourir par Super Jamil ! <br/>
                     </p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <img src="images/seb.png" class="img-responsive margin" style="width:100%" alt="Sébastien">
                     <h4>Sébastien</h4>
                     <p class="bio">Sébastien et un futur grand Designer, il n'est pour l'instant qu'etudiant aux Beaux Arts, mais vous entendrez bientôt parler de lui ! <br/>
@@ -151,7 +209,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-6">
                 <p class="contact-p french">Remplissez ce formulaire avec votre nom, une adresse mail ainsi que votre message.<br/>
-                Que ce soit pour un renseignement ou même un devis.</p>
+                Que ce soit pour un renseignement, un devis ou même pour une commande.</p>
                 <img src="lg-robot.jpg" alt="">
             </div>
 
@@ -169,7 +227,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Message* :</label>
-                                <textarea name="message" class="form-control" rows="5" id="message" placeholder="votre message"></textarea>
+                                <textarea name="message" class="form-control" rows="5" id="message" placeholder="Votre message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-block"><i class="fa fa-envelope-o fa-x5" aria-hidden="true"></i>&nbsp; &nbsp;Envoyez votre message</button>
                             <p>* champs requis.</p>

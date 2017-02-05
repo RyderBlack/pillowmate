@@ -36,8 +36,9 @@ p {
     /* Black Gray */
     color: #fff;
 }
+
 .bg-2 p, .bg-3 p, .bg-2 h3 {
-  color: #a6a3a3;
+    color: #a6a3a3;
 }
 
 .container-fluid {
@@ -46,13 +47,16 @@ p {
 }
 
 .navbar {
-    padding-top: 15px;
+    padding: 5px 0;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
     cursor: pointer;
+}
+.navbar-brand {
+  padding: 0;
 }
 
 .navbar-nav li a:hover {
@@ -75,16 +79,34 @@ h5 {
     color: rgb(212, 0, 0);
 }
 
-
 footer.container-fluid.bg-4.text-center {
-    padding: 20px;
+    padding: 10px;
 }
-
+footer > p {
+  font-size: 22px;
+}
 #intro {
-  height: 100vh;
-  background-color: #eee;
+    height: 100vh;
+    background-color: white;
 }
 
-#intro > h3 {
-  padding-top: 15vh;
+#intro>h3 {
+    padding-top: 15vh;
 }
+
+button {
+    background-color: rgb(212, 0, 0);
+    color: white;
+}
+
+.col-md-4 {}
+
+.logo {
+    width: 40%;
+}
+
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
