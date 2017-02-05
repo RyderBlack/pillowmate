@@ -55,8 +55,9 @@ p {
     letter-spacing: 5px;
     cursor: pointer;
 }
+
 .navbar-brand {
-  padding: 0;
+    padding: 0;
 }
 
 .navbar-nav li a:hover {
@@ -82,9 +83,11 @@ h5 {
 footer.container-fluid.bg-4.text-center {
     padding: 10px;
 }
-footer > p {
-  font-size: 22px;
+
+footer>p {
+    font-size: 22px;
 }
+
 #intro {
     height: 100vh;
     background-color: white;
@@ -99,14 +102,19 @@ button {
     color: white;
 }
 
-.col-md-4 {}
-
 .logo {
     width: 40%;
 }
 
-.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
-.onebyone-carosel .active.left { left: -33.33%; }
-.onebyone-carosel .active.right { left: 33.33%; }
-.onebyone-carosel .next { left: 33.33%; }
-.onebyone-carosel .prev { left: -33.33%; }
+.bg-huile {
+  background-image: url("images/huile.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 25vh;
+  padding: 3%;
+}
+
+.row01 .col-md-3 img {
+  border: 6px solid white;
+  border-radius: 3px;
+}
