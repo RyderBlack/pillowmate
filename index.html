@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,27 +26,30 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">PillowMate</a>
+                <a class="navbar-brand" href="#intro">PillowMate</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Le projet</a></li>
-                    <li><a href="#">La team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#projet">Le projet</a></li>
+                    <li><a href="#team">La team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-        <h3 class="margin">Qu'est ce que PillowMate ?</h3>
-        <img src="lg-robot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="reveil" width="350" height="350">
-        <div class="row">
-            <h3>PillowMate est un réveil conçu pour vous aider à vous réveiller du bon pieds.</h3>
-            <p>Avec son système olfactif embarqué, c'est vous qui décidez du type de réveil que vous souhaitez !</p>
-        </div>
+    <header class="container-fluid text-center scroll bg-2" id="intro">
+      <h3 class="margin">Qu'est ce que PillowMate ?</h3>
+      <img src="lg-robot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="reveil" width="350" height="350">
+      <div class="row">
+          <h3>PillowMate est un réveil conçu pour vous aider à vous réveiller du bon pieds.</h3>
+          <p>Avec son système olfactif embarqué, c'est vous qui décidez du type de réveil que vous souhaitez !</p>
+      </div>
+    </header>
+    <div class="container-fluid bg-1 text-center scroll" id="accueil">
+
         <div class="row" style="margin-bottom:50px;">
             <div class="col-md-6">
                 <h4>Happy</h4>
@@ -70,7 +74,7 @@
 
     </div>
     <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center">
+    <div class="container-fluid bg-2 text-center" id="projet">
         <h3 class="margin">Le projet :</h3>
         <div class="row">
             <div class="col-md-12">
@@ -83,11 +87,10 @@
         </div>
     </div>
     <!-- third -->
-        <div class="container-fluid bg-1 text-center">
+        <div class="container-fluid bg-1 text-center" id="team">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="margin">Qui sommes-nous ?</h3>
-
                 </div>
             </div>
             <div class="row">
@@ -143,7 +146,7 @@
 
 
     <!-- Fourth Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
+    <div class="container-fluid bg-3 text-center" id="contact">
         <h3 class="margin h3">Contact</h3><br>
         <div class="row">
             <div class="col-md-6 col-xs-6">
