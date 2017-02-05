@@ -58,6 +58,7 @@ p {
 
 .navbar-brand {
     padding: 0;
+    display: inline-block;
 }
 
 .navbar-nav li a:hover {
@@ -121,4 +122,13 @@ button {
 }
 .fragrances {
   margin-top: 3%;
+}
+.flex-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+}
+.center-row {
+  margin: auto;
 }
